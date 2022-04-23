@@ -1,13 +1,14 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from "styled-components";
 
 export default createGlobalStyle`
   :root {
-    --frist-color: #006AFF;
-    --frist-color-alt:rgba(0, 106, 255, 0.1);
-    --white-color: #fff;
-    --dark-color: #111;
+    --frist-color: #ee9430;
+    --frist-color-alt: #eccb39;
+    --dark-color: #280e11;
+    --second-color: #15181f;
     --body-font: "Poppins", Arial, sans-serif;
     --gray-color:#ccc;
+    --white-color:#fff;
     --header-height:3rem;
 
     --blod: bolder;
@@ -37,12 +38,11 @@ export default createGlobalStyle`
   }
   body {
     box-sizing: border-box;
-    color: var(--dark-color);
+    color: var(--white-color);
     margin: 0px;
     padding: 0px;
     font-family: var(--body-font);
-    background-color: var(--white-color);
-    overflow-x:hidden;
+    background:rgba(0,0,0, .5);    
     transition:.5s;
   } 
   *,

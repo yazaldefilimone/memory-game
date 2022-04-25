@@ -52,6 +52,7 @@ export default createGlobalStyle`
     padding: 0px;
     color: var(--text-color);
     box-sizing: border-box ;
+    border:none;
   }
   img{
     display:block;
